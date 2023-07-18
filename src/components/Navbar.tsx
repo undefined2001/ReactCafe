@@ -21,14 +21,14 @@ export default function Navbar() {
                     </div>
                     <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div className="flex flex-shrink-0 items-center">
-                            <span className="font-sarif text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm text-xl">FOOD XYZ</span><img className="h-8 w-auto" src="../public/logo.png" alt="Your Company" />
+                            <Link to={"/Reactcafe/"}><span className="mono text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-3xl">FOOD XYZ</span></Link><Link to={"/Reactcafe/"}><img className="h-8 w-auto" src="./logo.png" alt="Your Company" /></Link>
                         </div>
                         <div className="hidden sm:ml-6 sm:block">
                             <div className="flex space-x-4">
-                                <Link to="/" className="text-grey-300 hover:bg-gray-700 hover:text-orange-600 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</Link>
-                                <Link to="/menu" className="text-gray-300 hover:bg-gray-700 hover:text-orange-600 rounded-md px-3 py-2 text-sm font-medium">Menu</Link>
-                                <Link to="/about" className="text-gray-300 hover:bg-gray-700 hover:text-orange-600 rounded-md px-3 py-2 text-sm font-medium">About Us</Link>
-                                <Link to="/contact" className="text-gray-300 hover:bg-gray-700 hover:text-orange-600 rounded-md px-3 py-2 text-sm font-medium">Contact</Link>
+                                <Link to="/Reactcafe/" className="text-grey-300 hover:bg-gray-700 hover:text-orange-600 rounded-md px-3 py-2 text-xl font-medium" aria-current="page">Home</Link>
+                                <Link to="/Reactcafe/menu" className="text-gray-300 hover:bg-gray-700 hover:text-orange-600 rounded-md px-3 py-2 text-xl font-medium">Menu</Link>
+                                <Link to="/Reactcafe/about" className="text-gray-300 hover:bg-gray-700 hover:text-orange-600 rounded-md px-3 py-2 text-xl font-medium">About Us</Link>
+                                <Link to="/Reactcafe/contact" className="text-gray-300 hover:bg-gray-700 hover:text-orange-600 rounded-md px-3 py-2 text-xl font-medium">Contact</Link>
                             </div>
                         </div>
                     </div>

@@ -25,6 +25,6 @@ body{
 } 
 
 
-.custom-card{
-  height: 100%;
+.mono{
+  font-family: 'Roboto Mono', monospace;
 }
